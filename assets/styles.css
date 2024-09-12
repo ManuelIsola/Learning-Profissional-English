@@ -1,0 +1,142 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.status-item i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.opcao-card {
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.opcao-card:hover {
+    border-color: #1cb0f6;
+}
+
+.opcao-radio {
+    display: none;
+}
+
+.opcao-label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.opcao-custom-radio {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcao-radio:checked + .opcao-label .opcao-custom-radio {
+    border-color: #1cb0f6;
+}
+
+.opcao-custom-radio::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1cb0f6;
+    display: none;
+}
+
+.opcao-radio:checked + .opcao-label .opcao-custom-radio::after {
+    display: block;
+}
+
+.correta {
+    border-color: #28a745;
+    background-color: #d4edda;
+}
+
+.incorreta {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+#verificar, #proximo {
+    width: 200px;
+}
+
+.progress {
+    height: 12px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: #58cc02;
+}
+
+#ouvirPronuncia {
+    color: #1cb0f6;
+    transition: color 0.3s ease;
+}
+
+#ouvirPronuncia:hover {
+    color: #0056b3;
+}
+
+#ouvirPronuncia:focus {
+    box-shadow: none;
+}
+
+#areaSelecaoModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+}
+
+#areaSelecaoModal .modal-content {
+    border: none;
+    box-shadow: none;
+}
+
+#areaSelecaoModal .btn {
+    margin-bottom: 10px;
+}
+
+.modal-title{
+    text-align: center;
+}
