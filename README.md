@@ -28,7 +28,7 @@ Aprenda Inglês Profissional é um jogo educativo interativo projetado para ajud
 ## Instalação
 1. Clone este repositório:
    ```
-   git clone https://github.com/manuelisola/aprenda-ingles-profissional.git
+   git clone https://github.com/ManuelIsola/Learning-Profissional-English.git
    ```
 2. Navegue até o diretório do projeto:
    ```
@@ -45,4 +45,4 @@ Este projeto está licenciado sob a [MIT License](https://opensource.org/license
 ## Contacto
 Seu Nome - manuelisola8@gmail.com(mailto:manuelisola8@gmail.com)
 
-Link do Projeto: [https://github.com/manuelisola/aprenda-ingles-profissional](https://github.com/manuelisola/aprenda-ingles-profissional)
+Link do Projeto: [https://github.com/ManuelIsola/Learning-Profissional-English.git](https://github.com/ManuelIsola/Learning-Profissional-English.git)
