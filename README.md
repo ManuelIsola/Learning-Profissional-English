@@ -43,6 +43,6 @@ Contribuições são bem-vindas! Se você tem uma sugestão para melhorar este j
 Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contacto
-Seu Nome - manuelisola8@gmail.com(mailto:manuelisola8@gmail.com)
+Manuel Isola(mailto:manuelisola8@gmail.com)
 
 Link do Projeto: [https://github.com/ManuelIsola/Learning-Profissional-English.git](https://github.com/ManuelIsola/Learning-Profissional-English.git)
